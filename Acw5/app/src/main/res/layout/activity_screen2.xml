@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".screen2">
+
+    <TextView
+        android:id="@+id/appname2"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="124dp"
+        android:text="اسم البرنامج"
+        android:textColor="#6C1A3D"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/dd"
+        android:layout_width="177dp"
+        android:layout_height="155dp"
+        android:layout_below="@+id/appname2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="133dp"
+        app:srcCompat="@drawable/dazai" />
+
+    <TextView
+        android:id="@+id/cc"
+        android:layout_width="280dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/dd"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="23dp"
+        android:text="بيانات العميل"
+        android:textColor="@color/purple_200"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/esm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="253dp"
+        android:text="الاسم :"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/esm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="152dp"
+        android:text="العمر :"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tname"
+        android:layout_width="113dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="374dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="199dp"
+        android:text="...."
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tage"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="95dp"
+        android:text="...."
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
